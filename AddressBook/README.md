@@ -1,1 +1,1 @@
-This is a contact list or address book, call it whatever you like. This is written on java, my first experience in object oriented programming. The "database" is just a txt file that it will be created automaticly locally using streams and serialization.
+This is a contact list or address book, call it whatever you like. This is written on java, my first experience in object oriented programming. The "database" is just a txt file that it will be created automaticly locally. The save and load are completed by using streams and serialization.
