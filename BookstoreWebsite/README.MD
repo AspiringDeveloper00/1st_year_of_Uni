@@ -1,0 +1,1 @@
+This is my first ever web project assigned to me. I had to create locally a bookstore website using html,css,js for the front-end and php,mysql as my back-end. I completed it using the myphpAdmin tool according to my teacher's orders.
