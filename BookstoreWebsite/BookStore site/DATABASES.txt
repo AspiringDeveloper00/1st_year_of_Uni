@@ -1,0 +1,20 @@
+CREATE TABLE `contact` (
+  `id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(50) NOT NULL,
+  `surname` varchar(50) NOT NULL,
+  `phone_number` int(10) DEFAULT NULL,
+  `email` varchar(100) NOT NULL,
+  `comments` varchar(512) NOT NULL
+) 
+
+
+CREATE TABLE `info` (
+  `email` varchar(128) NOT NULL PRIMARY KEY,
+  `quan1` int(3) NOT NULL,
+  `quan2` int(3) NOT NULL,
+  `quan3` int(3) NOT NULL,
+  `quan4` int(3) NOT NULL,
+  `quan5` int(3) NOT NULL,
+  `quan6` int(3) NOT NULL,
+  `payment` int(100) NOT NULL
+) 

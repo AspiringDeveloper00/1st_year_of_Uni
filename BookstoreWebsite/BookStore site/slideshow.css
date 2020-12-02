@@ -1,0 +1,89 @@
+/* Position the image container*/
+.box
+{
+  position: absolute;
+  top: 170px;
+  width: 250px;
+  height: 400px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor
+{
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next
+{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover
+{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text, for example 1/6 */
+.numbertext
+{
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption
+{
+  text-align: center;
+  background-color: black;
+  padding: 1px 16px;
+  color: white;
+}
+
+/* Six columns side by side, below the pictures of the books */
+.column
+{
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo
+{
+  opacity: 0.6;
+}
+
+/* White shading over the small books below the big pictures */
+.active,
+.demo:hover
+{
+  opacity: 10000;
+}
+
+tr
+{
+  height: 400px;
+}

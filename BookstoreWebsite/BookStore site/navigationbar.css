@@ -1,0 +1,51 @@
+/*Font family in navigationbar.css because the bar will be in all the files, thus and the times font family*/
+body
+{
+  font-family: times;
+  background-color: #FFE5B4;
+}
+
+.topnav
+{
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a
+{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none; /*No underlining*/
+  font-size: 20px;
+}
+
+
+.topnav img
+{
+  float: left;
+  width:150px;
+}
+
+.topnav p
+{
+  font-weight: bold;
+  color:orange;
+  margin-left: 45%;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+/*Reaction when you hover over the bar buttons*/
+.topnav a:hover
+{
+  background-color: gray;
+}
+
+/*Left home button*/
+.topnav a.active
+{
+  background-color: orange;
+  color: white;
+}

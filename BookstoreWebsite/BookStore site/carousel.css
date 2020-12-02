@@ -1,0 +1,50 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.mySlides
+{
+  display: none;
+}
+
+
+/* Slideshow container */
+.carousel {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Caption text */
+.text {
+  color: orange;
+  font-size: 30px;
+  padding: 20px 15px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* The dots under the photos*/
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 4px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: orange;
+}
+
+/* On smaller screens, decrease text size (This part of the code was taken from an online forum)*/
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
